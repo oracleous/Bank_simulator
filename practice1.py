@@ -1,15 +1,3 @@
-'''
-def myfunc(*numbers):
-	number = 0
-	for num in numbers:
-	    if num > number:
-            print(num)
-        else:
-            print(number) 
-		number += num 
-myfunc(3,6,9,3,10,89,100,688)
-'''
-
 #Simple Bank simulator 
 import datetime
 class Bank():
